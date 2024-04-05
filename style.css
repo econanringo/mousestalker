@@ -29,6 +29,7 @@
   }
   
   .content {
+    width: 80%;
     display: flex;
     height: calc(100vh - 90px);
   }
@@ -38,7 +39,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 50%;
+    width: 100%;
     background: #000;
   
     .link-item {
@@ -54,31 +55,6 @@
   
     p {
       color: #fff;
-      font-size: 18px;
-      font-weight: bold;
-    }
-  }
-  
-  .content_right {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 50%;
-    background: #fff;
-  
-    .link-item {
-      display: block;
-      padding: 20px;
-      margin: 10px 0 0;
-      color: #fff;
-      background: #000;
-      border-radius: 50px;
-      text-decoration: none;
-    }
-  
-    p {
-      color: #000;
       font-size: 18px;
       font-weight: bold;
     }
